@@ -5,7 +5,7 @@ Detecting sequential commands can be difficult, expecially when we apply some co
 
 __E.g.__
 When a system is provided the following statement
-"Add 52 to the low of San Francisco" intuitively as humans we know at a high level we really need to complete 2 tasks here, first we need to find the low of san francisco and second add 52 to that value.
+"*Add 52 to the low of San Francisco*" intuitively as humans we know at a high level we really need to complete 2 tasks here, first we need to find the low of san francisco and second add 52 to that value.
 
 #### Approach:
 Ya.. just trying a couple ideas out here.. will come back to this with some findings. maybe..
