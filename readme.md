@@ -1,16 +1,20 @@
 ## Sequential Commands
 
-#### Problem Statement:
+### Problem Statement:
 Detecting sequential commands can be difficult, expecially when we apply some compute contraints. When I talk to something I really dont want to wait more than a second or two for a response.
+
+__You can find some of these algorithms implemented [here](https://github.com/project-orva/skill-service).__
 
 __E.g.__
 When a system is provided the following statement
 "*Add 52 to the low of San Francisco*" intuitively as humans, we know at a high level we really need to complete 2 tasks here, first we need to find the low of san francisco and second add 52 to that value.
 
-#### Approach(s):
+### Approach(s):
 Ya.. just trying a couple ideas out here.. 
 
-##### Ap. 0
+#### Approach. 0
+> found at "./Ap 0.ipynb"
+
 At a high level, in our dataset, we have a property for a delimiting phrase that represents where each statement should be split. e.g in the statement "*could you add twelve to the max temperature in London*" our delimiting property would be "*to the*". Given this, it is really just a matter of learning the boundaries from our dataset and detecting any oscillation that may exist when comparing our input to said boundaries.
 
 __cons__:
